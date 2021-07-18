@@ -21,12 +21,12 @@ URL : http://localhost:4000/addQrToPdf
 Method : POST
 Content Type : multipart/form-data
 
-file: File
-width: NumberString!
-height: NumberString!
-x: NumberString!
-y: NumberString!
-qrCodeData: String!
-qrDarkColor: String
-qrLightColor: String
+file: File // PDF file you want to upload
+width: NumberString! // QR Code width
+height: NumberString! // QR Code height
+x: NumberString! // QR Code placement left to right
+y: NumberString! // QR Code placement top to bottom
+qrCodeData: String! // QR Code data (data you want to be stored in qr code)
+qrDarkColor: String // QR Code data color
+qrLightColor: String // QR Code background
 ```
