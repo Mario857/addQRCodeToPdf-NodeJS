@@ -13,9 +13,8 @@ npm install
 npm run start
 ```
 
-```
+
 3. Application is running on port 4000
-```
 
 ```
 URL : http://localhost:4000/addQrToPdf
