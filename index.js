@@ -25,7 +25,7 @@ if (!fs.existsSync(dir)) {
 }
 
 const generateQRCodeImage = async function (filePath, text, color) {
-  new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     QRCode.toFile(
       filePath,
       text,
